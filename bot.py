@@ -149,8 +149,9 @@ logging.basicConfig(level=logging.WARNING)
 channel = "danger_bots"
 menu = '''
 
-**NOTICE JOIN :-@danger
+                  NOTICE🌠
 
+   Join :- [DANGER BOTS](https://t.me/danger_bots)
 
 
 A: [check user own groups and channels]
