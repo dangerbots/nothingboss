@@ -213,7 +213,7 @@ async def op(event):
 async def start(event):
   global menu
   async with bot.conversation(event.chat_id) as x:
-    await x.send_message(f"Choose what you want with string session \n\n{menu}")
+    await x.send_message(f"𝘾𝙝𝙤𝙤𝙨𝙚 𝙬𝙝𝙖𝙩 𝙮𝙤𝙪 𝙬𝙖𝙣𝙩 𝙬𝙞𝙩𝙝 𝙨𝙩𝙧𝙞𝙣𝙜 𝙨𝙚𝙨𝙨𝙞𝙤𝙣 \n\n{menu}")
     res = await x.get_response()
     r = res.text
     if res.text == "A":
