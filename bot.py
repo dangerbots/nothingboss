@@ -185,9 +185,12 @@ I ADD MORE FEATURES LATER 😆
 mm = '''
 You can hack anybody
 Take his StringSession and use me
-I will give you full power of mine
+I will give you full power of mine type /hack
+
 ⚡️devoleper⚡️:- [𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀么𝗸𝗶𝗱](https://t.me/danger_of_telegram)
-Type /hack
+ UPDATES  ✨️:-  [DANGER BOTS](https://t.me/danger_bots)
+
+
 '''
 @client.on(events.NewMessage(pattern="/start"))
 async def op(event):
